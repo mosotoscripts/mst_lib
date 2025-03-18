@@ -24,7 +24,7 @@ server_scripts {
 
 files {
     'api.lua',
-    'modules/**/*'
+    'modules/**'
 }
 
 dependencies {
