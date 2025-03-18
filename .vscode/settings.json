@@ -1,5 +1,7 @@
 {
     "Lua.diagnostics.globals": [
-        "lib"
+        "lib",
+        "cache",
+        "noop"
     ]
 }
