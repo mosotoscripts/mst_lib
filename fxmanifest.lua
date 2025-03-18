@@ -11,15 +11,18 @@ description 'A FiveM library which helps handle some of the Mosoto Scripts key f
 shared_scripts {
     '@ox_lib/init.lua',
     'handlers/shared.lua',
-    'handlers/**/shared.lua'
+    'handlers/**/shared.lua',
+    'handlers/**/mods/shared.lua'
 }
 
 client_scripts {
-    'handlers/**/client.lua'
+    'handlers/**/client.lua',
+    'handlers/**/mods/client.lua'
 }
 
 server_scripts {
-    'handlers/**/server.lua'
+    'handlers/**/server.lua',
+    'handlers/**/mods/server.lua'
 }
 
 files {
