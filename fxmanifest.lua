@@ -27,6 +27,7 @@ server_scripts {
 
 files {
     'api.lua',
+    'handlers/**/mods/**',
     'modules/**'
 }
 
