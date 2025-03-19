@@ -12,17 +12,20 @@ shared_scripts {
     '@ox_lib/init.lua',
     'handlers/shared.lua',
     'handlers/**/shared.lua',
-    'handlers/**/mods/shared.lua'
+    'handlers/**/mods/shared.lua',
+    'handlers/**/mods/shared/*.lua'
 }
 
 client_scripts {
     'handlers/**/client.lua',
-    'handlers/**/mods/client.lua'
+    'handlers/**/mods/client.lua',
+    'handlers/**/mods/client/*.lua'
 }
 
 server_scripts {
     'handlers/**/server.lua',
-    'handlers/**/mods/server.lua'
+    'handlers/**/mods/server.lua',
+    'handlers/**/mods/server/*.lua'
 }
 
 files {
