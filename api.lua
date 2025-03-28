@@ -1,4 +1,11 @@
--- Based on https://github.com/overextended/ox_lib/blob/master/init.lua
+---@meta
+--[[
+    https://github.com/overextended/ox_lib
+
+    This file is licensed under LGPL-3.0 or higher <https://www.gnu.org/licenses/lgpl-3.0.en.html>
+
+    Copyright (c) 2025 Linden <https://githom/thelindat/fivem>
+]]
 
 if cache.resource == 'mst_lib' then
     error('Can\'t load mst_lib more than once in the same resource.', 2)
