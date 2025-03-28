@@ -6,6 +6,8 @@ use_experimental_fxv2_oal 'yes'
 name 'mst_lib'
 author 'te6ka_ninja'
 version '0.0.1'
+license 'LGPL-3.0-or-later'
+repository 'https://github.com/mosotoscripts/mst_lib'
 description 'A FiveM library which helps handle some of the Mosoto Scripts key features.'
 
 shared_scripts {
