@@ -69,3 +69,5 @@ _ENV.mst = setmetatable({}, {
     __index = import,
     __call = import
 })
+
+_ENV.bridge = export.getBridge()
