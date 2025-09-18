@@ -14,7 +14,7 @@ do
             'qb-core',
             'es_extended',
             'ND_Core'
-        }, GetConvar('mst:framework', 'auto'))
+        }, GetConvar('mst:framework', 'auto')
 
         -- Framework detecting
         local coreName = nil

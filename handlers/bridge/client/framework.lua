@@ -13,3 +13,5 @@ end)()
 bridge.playerUnloaded = playerUnloaded
 bridge.playerLoaded = playerLoaded
 bridge.playerJobUpdate = playerJobUpdate
+
+return bridge
