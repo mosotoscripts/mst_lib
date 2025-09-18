@@ -55,7 +55,7 @@ do
         }
     }
 
-    local defaultPath = 'mst_lib/handlers/bridge/%s/%s'
+    local defaultPath = '@mst_lib/handlers/bridge/%s/%s'
     for scope, mods in ipairs(availableMods) do
         for i = 1, #mods do
             local mod = mods[i]
