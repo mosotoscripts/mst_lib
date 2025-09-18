@@ -41,16 +41,15 @@ _ENV.bridge = setmetatable({}, {
 do
     local availableMods = {
         client = {
-            'target',
-            'textUI',
-            'progressBar'
+            'framework'
         },
 
         server = {
-
+            'framework'
         },
 
         shared = {
+            'framework',
             'notify'
         }
     }
