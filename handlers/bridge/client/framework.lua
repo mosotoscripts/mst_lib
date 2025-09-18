@@ -1,3 +1,8 @@
+local frameworkName = bridge.frameworkName
+if not frameworkName then
+    return
+end
+
 local playerUnloaded, playerLoaded, playerJobUpdate = (function()
     if frameworkName == 'ox_core' then
         return 'ox:playerLogout', 'ox:playerLoaded', 'ox:setGroup'
@@ -13,5 +18,3 @@ end)()
 bridge.playerUnloaded = playerUnloaded
 bridge.playerLoaded = playerLoaded
 bridge.playerJobUpdate = playerJobUpdate
-
-return bridge
